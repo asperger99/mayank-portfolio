@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta -->
+    <title>Mayank Kumar Singh — Sr. Software Engineer</title>
+    <meta name="description" content="Sr. Software Engineer with 4+ years building distributed systems, microservices, and full-stack solutions at JPMorgan Chase and Coursefinder.ai." />
+    <meta name="keywords" content="Software Engineer, Distributed Systems, Microservices, TypeScript, C#, .NET, PostgreSQL, AWS, Backend Engineer" />
+    <meta name="author" content="Mayank Kumar Singh" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mayank Kumar Singh — Sr. Software Engineer" />
+    <meta property="og:description" content="Full Stack Engineer with a strong backend foundation. 4+ years architecting microservices, REST APIs, and distributed systems in production." />
+    <meta property="og:url" content="https://mayanksingh.dev" />
+    <meta property="og:site_name" content="Mayank Kumar Singh" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mayank Kumar Singh — Sr. Software Engineer" />
+    <meta name="twitter:description" content="Full Stack Engineer. 4+ years in distributed systems, microservices, and backend infrastructure." />
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#0ea5e9" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Prevent FOUC for dark mode -->
+    <script>
+      (function () {
+        const stored = localStorage.getItem("theme");
+        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        const theme = stored || (prefersDark ? "dark" : "light");
+        if (theme === "dark") document.documentElement.classList.add("dark");
+        else document.documentElement.classList.remove("dark");
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

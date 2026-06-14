@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp \"/Users/asperger/Downloads/MayannkSingh2026.pdf\" \"/Users/asperger/DevProjects/mayank-portfolio/public/resume.pdf\")",
+      "Bash(npx tsc *)",
+      "Bash(pdftotext /Users/asperger/Downloads/MayannkSingh2026.pdf -)",
+      "Bash(pdftotext /Users/asperger/Downloads/resume.pdf -)",
+      "Bash(brew install *)"
+    ],
+    "additionalDirectories": [
+      "/Users/asperger/Downloads"
+    ]
+  }
+}
