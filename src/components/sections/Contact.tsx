@@ -65,17 +65,6 @@ export function Contact() {
                 iconBg: "bg-brand-500/10 group-hover:bg-brand-500/20",
               },
               {
-                href: "tel:+917250970828",
-                Icon: Phone,
-                label: "Phone",
-                value: "+91 7250970828",
-                bg: "from-violet-500/8 to-transparent",
-                border: "border-violet-500/20 hover:border-violet-500/40",
-                dot: "bg-violet-400",
-                icon: "text-violet-400",
-                iconBg: "bg-violet-500/10 group-hover:bg-violet-500/20",
-              },
-              {
                 href: undefined,
                 Icon: MapPin,
                 label: "Location",
