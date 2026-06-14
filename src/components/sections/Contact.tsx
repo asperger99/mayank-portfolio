@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Mail, Phone, MapPin, Send, MessageSquare } from "lucide-react";
+import { Mail, MapPin, Send, MessageSquare } from "lucide-react";
 import { cn } from "../../lib/utils";
 
 export function Contact() {
