@@ -235,7 +235,7 @@ export function NetworkGraph({ size = 360 }: { size?: number }) {
     const edges: [number, number][] = EDGE_LABELS.map(([la, lb]) => [
       nodes.findIndex(n => n.label === la),
       nodes.findIndex(n => n.label === lb),
-    ]).filter(([a, b]) => a >= 0 && b >= 0);
+    ] as [number, number]).filter(([a, b]) => a >= 0 && b >= 0);
 
     const packets: Packet[] = [];
     const spawnPacket = () => {
